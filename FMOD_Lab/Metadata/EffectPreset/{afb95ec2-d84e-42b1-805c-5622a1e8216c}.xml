@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EffectPreset" id="{afb95ec2-d84e-42b1-805c-5622a1e8216c}">
+		<property name="name">
+			<value>Effect Chain</value>
+		</property>
+		<relationship name="folder">
+			<destination>{4da132d9-ffea-45dd-b97f-b1beba57e967}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{bc32505b-6194-4a79-98d7-72a17def2c54}</destination>
+		</relationship>
+	</object>
+	<object class="EffectChain" id="{bc32505b-6194-4a79-98d7-72a17def2c54}">
+		<relationship name="effects">
+			<destination>{b1a84920-0190-4d07-894c-e5f023781ef7}</destination>
+		</relationship>
+	</object>
+	<object class="SFXReverbEffect" id="{b1a84920-0190-4d07-894c-e5f023781ef7}" />
+</objects>

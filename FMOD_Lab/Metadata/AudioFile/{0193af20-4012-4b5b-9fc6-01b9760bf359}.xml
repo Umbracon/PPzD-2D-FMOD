@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{0193af20-4012-4b5b-9fc6-01b9760bf359}">
+		<property name="assetPath">
+			<value>Enemy/Footsteps/gravel4.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.38870833333333332</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e89c5f0e-45a7-4b0f-b659-46f5e290a1d6}</destination>
+		</relationship>
+	</object>
+</objects>

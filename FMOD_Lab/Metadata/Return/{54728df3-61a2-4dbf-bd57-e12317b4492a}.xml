@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerReturn" id="{54728df3-61a2-4dbf-bd57-e12317b4492a}">
+		<property name="name">
+			<value>HeartbeatLowpass</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{dcd045fe-0c59-4c7b-9cd2-9cacc17ec2f7}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{161895d0-1cec-401a-94e8-097cb8bb07c2}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{aa0c9477-85f2-477d-943f-3a6b020b6fae}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{dcd045fe-0c59-4c7b-9cd2-9cacc17ec2f7}">
+		<relationship name="effects">
+			<destination>{852c5b51-32ad-435e-97c2-d81786a4c184}</destination>
+			<destination>{db4f4fda-6912-4c3a-987f-0b0251782e39}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{161895d0-1cec-401a-94e8-097cb8bb07c2}" />
+	<object class="LowpassSimpleEffect" id="{852c5b51-32ad-435e-97c2-d81786a4c184}" />
+	<object class="MixerBusFader" id="{db4f4fda-6912-4c3a-987f-0b0251782e39}" />
+</objects>
